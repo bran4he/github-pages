@@ -1,17 +1,17 @@
 # Site settings
 title: Blog of Brandon
 SEOTitle: Brnadon的博客 | Brandon's Blog
-header-img: http://7jpq49.com1.z0.glb.clouddn.com/home_bg.png
+header-img: img/home_bg.png
 email: brandon_he@163.com
 description: "description"
 keyword: "java brandon"
-url: ""              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+url: "https://github.com/bran4he"              # your host, for absolute URL
+baseurl: "/pages"                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
-RSS: true
+RSS: false
 weibo_username:     sephirex
 #zhihu_username:     huxpro
 github_username:    bran4he
@@ -70,8 +70,8 @@ kramdown:
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "sidebar-about-description" #"写写代码，做做设计，<br>离开世界之前，一切都是过程"
-sidebar-avatar: http://7jpq49.com1.z0.glb.clouddn.com/ali_head.jpg #/img/sidebar-avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "keep learning + think + good idea + don't wait <br> every day is a new day" #"写写代码，做做设计，<br>离开世界之前，一切都是过程"
+sidebar-avatar: /img/sidebar-avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -90,7 +90,7 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "Su",
-        href: "http://su.gallery/"
+        title: "Google ncr",
+        href: "https://www.google.com/ncr"
     }
 ]

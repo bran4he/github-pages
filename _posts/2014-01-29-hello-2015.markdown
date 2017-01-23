@@ -4,24 +4,24 @@ title:      "Hello 2015"
 subtitle:   " \"Hello World, Hello Blog\""
 date:       2015-01-29 12:00:00
 author:     "Bran"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/in-post/2015/2015-bg-0129.jpg"
 catalog: true
 tags:
-    - TEST
+    - test
     - example
 ---
 
 > “Yeah It's on. ”
 
 
-## 前言
+## Content
 
 - - -
 - hello
 - world
--  this
+- this
 - is
--  test
+- test
 
 
 
