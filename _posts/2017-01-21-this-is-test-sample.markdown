@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "this is test sample"
-date:   2017-01-21 13:08:09 -0700
+date:   2016-01-21 13:08:09 -0700
 categories: sample
 tags: test tag-tag
 ---
