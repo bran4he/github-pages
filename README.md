@@ -25,6 +25,7 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](http://7jpq49.com1.z0.glb.clouddn.com/randomKey1.jpeg)
 
+[点我进入雪球头像小助手](http://www.baidu.com)
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
