@@ -1,29 +1,126 @@
-# Welcome to Jekyll and Thank you for using Renge as your theme.
-
-# Renge is designed by Junchao (www.junchaowang.com) and inspired by amination
-# “のんのんびより” and named by one of the Characters "Renge Miyauchi (宮内 れんげ Miyauchi Renge)".
-# If you have any questions, you can reach me via https://github.com/billyfish152 by submitting
-# an issue or via email billyfish152@gmail.com.
-
-# Please install jekyll-paginate before build it.
-# sudo gem install jekyll-paginate in linux or MacOS.
-# gem install jekyll-paginate in Windows.
-
-# Renge supports categories and tags, which are defined in each of your posts.
-# Also, You can add or removed links in /_includes/sider.html .
-# please change the belowing settings to your own.
-
 # Site settings
-title: 善始者实繁 克终者盖寡
-email: brandon_he$163.com
-description: we fight we get, we back we lose!
-baseurl: "/pages" # the subpath of your site, e.g. /blog
-url: "https://bran4he.github.io" # the base hostname & protocol for your site
-twitter_username: N/A
-github_username:  bran4he
+title: Blog of Brandon
+SEOTitle: Brnadon的博客 | Brandon Blog
+header-img: img/home-bg.jpg
+email: brandon_he@163.com
+description: "description"
+keyword: "key keyword"
+url: ""              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+
+
+
+# SNS settings
+RSS: false
+weibo_username:     bran4he
+#zhihu_username:     huxpro
+github_username:    bran4he
+#twitter_username:  huxpro
+#facebook_username:  huxpro
+# linkedin_username:  firstname-lastname-idxxxx
+
+
 
 # Build settings
-markdown: kramdown
-paginate: 3
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate]
-paginate_path: "/page/:num"
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: _your_disqus_short_name_
+
+# Duoshuo settings
+duoshuo_username: huxblog
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+
+
+# Analytics settings
+# Baidu Analytics 
+# ba_track_id: [your track id]
+
+# Google Analytics
+ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+ga_domain: huangxuan.me
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "写写代码，做做设计，<br>离开世界之前，一切都是过程"
+sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "Su",
+        href: "http://su.gallery/"
+    },{
+        title: "乱序",
+        href: "http://mida.re/"
+    },{
+        title: "前端外刊评论",
+        href: "http://qianduan.guru/"
+    },{
+        title: "天镶的博客",
+        href: "http://lingyu.wang/"
+    },{
+        title: "Luke 的自留地",
+        href: "http://hmqk1995.github.io"
+    },{
+        title: "Ebn's Blog",
+        href: "http://ebnbin.com/"
+    },{
+        title: "SmdCn's Blog",
+        href: "http://blog.smdcn.net"
+    },{
+        title: "解旻的博客",
+        href: "http://xieminis.me/"
+    },{
+        title: "DHong Say",
+        href: "http://dhong.co"
+    },{
+        title: "尹峰以为",
+        href: "http://ingf.github.io/"
+    },{
+        title: "前端神盾局",
+        href: "http://wepiaofei.github.io/blog/"
+    }
+]
