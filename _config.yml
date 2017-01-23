@@ -17,8 +17,8 @@
 title: 善始者实繁 克终者盖寡
 email: brandon_he$163.com
 description: we fight we get, we back we lose!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.google.com/ncr" # the base hostname & protocol for your site
+baseurl: "/pages" # the subpath of your site, e.g. /blog
+url: "https://bran4he.github.io" # the base hostname & protocol for your site
 twitter_username: N/A
 github_username:  bran4he
 
