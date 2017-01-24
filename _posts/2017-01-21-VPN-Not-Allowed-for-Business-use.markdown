@@ -11,6 +11,7 @@ tags:
     - shadowsocks
 ---
 
+> “题图 行云流水的车”
 
 ## 引自工信部官网通知  
 [link](http://www.chinanews.com/business/2017/01-23/8132905.shtml)
