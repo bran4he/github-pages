@@ -4,7 +4,7 @@ title:      "工信部发文将严管VPN"
 subtitle:   " \"出售VPN/SS/Proxy的人小心了\""
 date:       2017-01-21 12:00:00
 author:     "匿名人士"
-header-img: "img/in-post/2017/2017-bg-0121.png"
+header-img: "img/in-post/2017/2017-bg-0121.jpg"
 catalog: true
 tags:
     - router
