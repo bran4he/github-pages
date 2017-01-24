@@ -8,7 +8,7 @@ header-img: "/img/in-post/2017/01/2017-bg-0121.jpg"
 catalog: true
 tags:
     - VPN
-    - GFW-
+    - G*F*W
 ---
 
 > “题图 行云流水的车”

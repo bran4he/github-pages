@@ -9,7 +9,7 @@ catalog: true
 tags:
     - router
     - shadowsocks
-    - GFW-
+    - G*F*W
 ---
 
 > “题图 飞机上俯瞰香港”
