@@ -1,0 +1,51 @@
+---
+layout:     post
+title:      "Hello 2015"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2015-01-29 12:00:00
+author:     "Bran"
+header-img: "/img/in-post/2015/01/2015-bg-0129.jpg"
+catalog: true
+tags:
+    - test
+    - example
+---
+
+> “题图 未知星球”
+
+
+##0x001
+>markdown test
+- - -
+# 一级标题
+
+## 二级标题
+
+### 三级标题
+
+I get 10 times more traffic from [Google][1] than from
+[Yahoo][2] or [MSN][3].
+
+[1]: http://google.com/ "Google"
+[2]: http://search.yahoo.com/ "Yahoo Search"
+[3]: http://search.msn.com/ "MSN Search"
+
+![alt text](http://7jpq49.com1.z0.glb.clouddn.com/ss_logo.jpg "image from qiniu CDN")
+
+##0x002
+>table test
+- - -
+
+card type | 账单日 | 还款日| 下次还款金额| 积分
+---|---|---|---|---
+中信br|   17|   6|    ~~32~~|0
+招商|   25|   13|   ~~1441~~|5011
+建设br|   23| 12| ~~336~~|
+广发|  10 |   28|==1867==|
+兴业|   7|   27| ~~0~~  |101707
+光大|   12|   1|~~0~~ | 4679
+交通| 12| |==-30== |去消卡
+
+##0x003
+>end
+

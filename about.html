@@ -2,9 +2,18 @@
 layout: page
 title: "About"
 description: "Hey, this is Brandon"
-header-img: "img/about-bg.jpg"
+header-img: "../img/about/about-bg.jpg"
 ---
 
-> “题图 星球大战”
-
-## this is for self introduction
+<header class="intro-header" style="background-image: url('{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+				<div class="site-heading" id="tag-heading">
+					<h1>题图 星球大战</h1>
+					<span class="subheading">暂时没有什么可以说的</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
