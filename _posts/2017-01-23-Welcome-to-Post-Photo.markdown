@@ -23,10 +23,15 @@ tags:
 
 ## POST样例
 - - -
+>长兴-海洋世界摩天轮 2017-01-29
+
+![image](http://7jpq49.com1.z0.glb.clouddn.com/changxing-ferris-wheel-2017-01-29%20150700%20%281%29.jpg)
+
+
 > 杭州西湖-集贤亭
 
-![image](../../../../img/in-post/2017/01/2017-01-23 212428_236e86287342834.jpg)
+![image](http://7jpq49.com1.z0.glb.clouddn.com/2017-01-23%20212428_jixianting.jpg)
 
 > 武汉武汉大学-樱花树
 
-![image](../../../../img/in-post/2017/01/2017-01-23 3646725-23623376.jpg)
+![image](http://7jpq49.com1.z0.glb.clouddn.com/2017-01-23%203646725_wuhanyinhuashu.jpg)
