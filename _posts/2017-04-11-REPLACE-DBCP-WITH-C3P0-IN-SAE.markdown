@@ -57,7 +57,20 @@ root cause java.io.EOFException:
 ### 3 设置 maxWait
 参考相关网上文档，设置maxWait=8 < 10s，也就是数据库连接池最大等待时间比数据库连接等待时间稍微短点，测试时大部分成功，但是还是会出现连接失效的状况。
 
-### 4 使用c3p0
+### 4 使用阿里druid
+```
+druid.driverClassName=com.mysql.jdbc.Driver
+druid.url=jdbc:mysql://localhost:3306/eBaoDemo?useUnicode=true&characterEncoding=UTF-8
+druid.username=root
+druid.password=eBao1234
+druid.initialSize=5
+druid.minIdle=5
+druid.maxActive=20
+druid.maxWait=8000
+```
+参考wiki设置后测试，问题会出现
+
+### 5 使用c3p0
 设置c3p0的maxIdleTime=8 < 10s，测试成功，完美
 
 ```
