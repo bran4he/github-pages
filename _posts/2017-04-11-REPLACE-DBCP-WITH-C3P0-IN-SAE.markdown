@@ -4,7 +4,7 @@ title:      "SAE建议用c3p0代替dbcp"
 subtitle:   " \"新浪SAE使用数据库连接池的小结\""
 date:       2017-04-11 09:53:00
 author:     "Bran"
-header-img: "/img/in-post/2017/04/2017-04-11 12345_c3p0.png"
+header-img: "/img/in-post/2017/04/2017-04-11 12345_c3p0.jpg"
 catalog: true
 tags:
     - dbcp
